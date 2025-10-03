@@ -40,7 +40,7 @@ This project uses the **RAVDESS (Ryerson Audio-Visual Database of Emotional Spee
      - Sliding window approach with 128-frame windows
      - Stride of 64 frames (50% overlap)
      - Results in temporal sequences of mel-spectrogram chunks
-
+![Mel Spectrogram Chunked](mel_spec_chunked.png)
 ### Data Augmentation
 
 To improve model robustness and prevent overfitting, several augmentation techniques are applied:
